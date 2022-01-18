@@ -1,6 +1,5 @@
 import requests, requests_ntlm, websocket, json, shutil, asyncio, pyodbc
 requests.packages.urllib3.disable_warnings()
-from time import sleep
 
 class QlikSenseServer:
     
